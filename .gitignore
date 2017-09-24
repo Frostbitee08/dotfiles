@@ -2,9 +2,10 @@
 !.gitconfig
 !.gitignore
 !.ideavimrc
+!*com.googlecode.iterm2.plist
+!.iterm.preferences
 !.tmux.conf
 !.tmux.conf.local
-!.viminfo
 !.vimrc
 !.vimrc.bundles
 !.vimrc.bundles.local
