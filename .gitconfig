@@ -1,3 +1,5 @@
 [user]
 	email = roccodelpriore@me.com
 	name = Rocco Del Priore
+[alias]
+	ca = commitall
