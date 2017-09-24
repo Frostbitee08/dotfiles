@@ -1,8 +1,10 @@
 *
 !.gitconfig
 !.gitignore
+!.ideavimrc
 !.tmux.conf
 !.tmux.conf.local
+!.viminfo
 !.vimrc
 !.vimrc.bundles
 !.vimrc.bundles.local
