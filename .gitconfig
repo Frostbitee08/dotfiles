@@ -1,5 +1,9 @@
 [user]
 	email = roccodelpriore@me.com
 	name = Rocco Del Priore
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
 [alias]
 	ca = commitall

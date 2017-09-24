@@ -5,6 +5,7 @@
 !.tmux.conf.local
 !.vimrc
 !.vimrc.bundles
+!.vimrc.bundles.local
 !.vimrc.local
 !.zcompdump
 !.zshrc
