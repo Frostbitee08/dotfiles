@@ -1,1 +1,10 @@
-.DS_Store
+*
+!.gitconfig
+!.gitignore
+!.tmux.conf
+!.tmux.conf.local
+!.vimrc
+!.vimrc.bundles
+!.vimrc.local
+!.zcompdump
+!.zshrc
