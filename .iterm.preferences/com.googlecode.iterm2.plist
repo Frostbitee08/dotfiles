@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AdjustWindowForFontSizeChange</key>
-	<true/>
+	<false/>
 	<key>AllowClipboardAccess</key>
 	<false/>
 	<key>AlternateMouseScroll</key>
@@ -31747,9 +31747,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 216 796 473 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 5 720 873 0 0 1440 878 </string>
+	<string>0 5 1440 873 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 426 570 452 0 0 1440 878 </string>
+	<string>720 27 720 851 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>0 426 570 452 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -32703,7 +32703,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-23T21:03:34Z</date>
+	<date>2017-09-25T14:22:00Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
