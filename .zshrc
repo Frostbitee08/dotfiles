@@ -83,3 +83,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+eval "$(rbenv init -)"
+
+export AWS_ACCESS_KEY_ID="AKIAI7APURYA3WRIJCGQ"
+export AWS_SECRET_ACCESS_KEY="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"
