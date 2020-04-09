@@ -85,11 +85,29 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 eval "$(rbenv init -)"
+eval "$(nodenv init -)"
 
 export AWS_ACCESS_KEY_ID="AKIAI7APURYA3WRIJCGQ"
 export AWS_SECRET_ACCESS_KEY="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"
+
+# Chill Enviorment Variables
+export ALGOLIA_INDEX_NAME="Spree_Product_production"
+export CHILL_API="https=//chill-order-api.herokuapp.com"
+export FORCE_DOMAIN=true
+export ID_VERIFICATION_URL="https=//chill-id-verification.herokuapp.com"
+export LOADERIO_API_KEY="9609f8aa2c7525faa677f17540ad2482"
+export NODE_ENV="production"
+export PAPERTRAIL_API_TOKEN="7klZmITQTQS8t1wCHL"
+export REDIS_URL="redis=//h=p9f1a967e6eeb7b80d4f528d8c549434dbb5b7bf0bd2cd557c9d3eeab28248820@ec2-3-219-75-34.compute-1.amazonaws.com=28169"
+export SENTRY_AUTH_TOKEN="3885f8db0fb5449b9c500a19a6270433d6632c31c30a4e55b26d966ad6cfeebe"
+export SENTRY_ORG="mpcstudios-lc"
+export SENTRY_PROJECT="orderchill"
+export STOREFRONT_API_TOKEN="b5ec83cc6e590fd4dc029a6b7d5b72bb"
+export STOREFRONT_DOMAIN="d2ctest.myshopify.com"
+
+export PATH="$HOME/.fastlane/bin:$PATH"
